@@ -42,7 +42,7 @@ php -S 0.0.0.0:9100/uop qufop.php
 
 # 部署
 
-UFOP 服务的部署，需要利用到qufopctl工具，可以从http://developer.qiniu.com/article/dora/ufop/ufop-cli.html下载。
+UFOP 服务的部署，需要利用到qufopctl工具，可以从[http://developer.qiniu.com/article/dora/ufop/ufop-cli.html](http://developer.qiniu.com/article/dora/ufop/ufop-cli.html)下载。
 
 这里介绍一下本项目的部署方式。首先要建立一个文件夹，里面的文件结构如下：
 
