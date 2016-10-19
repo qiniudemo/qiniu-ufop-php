@@ -24,7 +24,7 @@ $post_body_obj = json_decode($post_body);
 $cmd = $post_body_obj->cmd;
 
 //trim the left ufop prefix
-$raw_cmd = ltrim($cmd, UFOP_PREFIX);
+$raw_cmd = substr($cmd, strlen(UFOP_PREFIX));
 
 //call the service
 if (preg_match('/^md5$/', $raw_cmd) == 1) {
